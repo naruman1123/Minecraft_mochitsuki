@@ -1,0 +1,13 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Tags:[\"Test\"]}"
+    }
+  },
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.3
+  }
+]

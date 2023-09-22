@@ -1,0 +1,145 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [8, 8],
+	"textures": {
+		"1": "item/yakimochi",
+		"particle": "item/mochi"
+	},
+	"elements": [
+		{
+			"from": [7.5436, 5.36862, 2.58083],
+			"to": [9.4956, 6.88862, 4.28083],
+			"rotation": {"angle": 45, "axis": "x", "origin": [2.1844, -0.47978, 4.18083]},
+			"faces": {
+				"north": {"uv": [3, 3, 0, 6], "rotation": 180, "texture": "#particle"},
+				"east": {"uv": [5, 0, 8, 1.25], "rotation": 270, "texture": "#particle"},
+				"south": {"uv": [3, 3, 0, 0], "texture": "#particle"},
+				"west": {"uv": [0, 6, 3, 7.25], "rotation": 90, "texture": "#particle"},
+				"up": {"uv": [3, 4, 6, 5.25], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [5, 2, 8, 3.25], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [9.2436, 3.86862, 7.78083],
+			"to": [9.8956, 4.58862, 9.48083],
+			"rotation": {"angle": 0, "axis": "x", "origin": [2.1844, -0.47978, 4.18083]},
+			"faces": {
+				"north": {"uv": [3, 3, 0, 6], "rotation": 180, "texture": "#particle"},
+				"east": {"uv": [5, 0, 8, 1.25], "rotation": 270, "texture": "#particle"},
+				"south": {"uv": [3, 3, 0, 0], "texture": "#particle"},
+				"west": {"uv": [0, 6, 3, 7.25], "rotation": 90, "texture": "#particle"},
+				"up": {"uv": [3, 4, 6, 5.25], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [5, 2, 8, 3.25], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [8.1956, 3.86862, 8.82883],
+			"to": [9.8956, 4.58862, 9.48083],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13.5956, -0.47978, 1.66963]},
+			"faces": {
+				"north": {"uv": [0, 6, 3, 7.25], "rotation": 90, "texture": "#missing"},
+				"east": {"uv": [3, 3, 0, 6], "rotation": 180, "texture": "#particle"},
+				"south": {"uv": [5, 0, 8, 1.25], "rotation": 270, "texture": "#particle"},
+				"west": {"uv": [3, 3, 0, 0], "texture": "#particle"},
+				"up": {"uv": [3, 4, 6, 5.25], "rotation": 270, "texture": "#particle"},
+				"down": {"uv": [5, 2, 8, 3.25], "rotation": 270, "texture": "#particle"}
+			}
+		},
+		{
+			"from": [7.5436, 0.74931, 5.7691],
+			"to": [9.4636, 4.94931, 7.1011],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [3.7036, 1.30931, 6.0691]},
+			"faces": {
+				"north": {"uv": [3, 0, 0, 5], "rotation": 180, "texture": "#particle"},
+				"east": {"uv": [0, 5, 5, 6.25], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [3, 5, 0, 0], "texture": "#particle"},
+				"west": {"uv": [5, 5, 10, 6.25], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [0.5, 5, 3.5, 6.25], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [0.5, 5, 3.5, 6.25], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-112, 0, 0],
+			"translation": [-0.5, -5.75, -16.5],
+			"scale": [3.3, 3.3, 3.3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 180, 0],
+			"translation": [-1.25, 12, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -118, 0],
+			"translation": [-1.5, 9.75, 3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -112, 0],
+			"translation": [0, 10, 3.5]
+		},
+		"ground": {
+			"translation": [-1, 12.5, -1],
+			"scale": [2, 2, 2]
+		},
+		"gui": {
+			"rotation": [0, -89, 0],
+			"translation": [-0.5, 9.5, -80],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [2, 20.5, 6],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [0, 74, 0],
+			"translation": [0.75, 9.75, 1.95],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "mochi",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		},
+		{
+			"name": "mochi",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "hukuramumochi4",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "kurogomamochi",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "mochi",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": []
+						},
+						{
+							"name": "mochi",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": []
+						}
+					]
+				},
+				{
+					"name": "hukuramumochi3",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [3]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/mokutan",
+		"particle": "item/mokutan"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [2, 2, 9],
+			"faces": {
+				"north": {"uv": [2, 2, 3, 3], "texture": "#0"},
+				"east": {"uv": [0, 0, 6.5, 1], "texture": "#0"},
+				"south": {"uv": [2, 3, 3, 4], "texture": "#0"},
+				"west": {"uv": [0, 1, 6.5, 2], "texture": "#0"},
+				"up": {"uv": [1, 8.5, 0, 2], "texture": "#0"},
+				"down": {"uv": [2, 2, 1, 8.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [73, 0, 0],
+			"translation": [7.25, 0, 7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [94, 0, 0],
+			"translation": [-6.75, -2, 7.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [68, 0, 0],
+			"translation": [7.75, 3.75, 9.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [54, 0, 0],
+			"translation": [-4.25, 7.5, 8.75]
+		},
+		"ground": {
+			"translation": [15, 8.25, 5.5]
+		},
+		"gui": {
+			"rotation": [0, -31, 0],
+			"translation": [4.75, 6.75, 0]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [-3.75, 7, 7]
+		}
+	}
+}

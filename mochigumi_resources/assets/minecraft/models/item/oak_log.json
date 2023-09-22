@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/oak_log",
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/sumi_dai"}
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "minecraft:block/black_concrete"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/usu"},
+    {"predicate": {"custom_model_data":2}, "model": "minecraft:item/mochkun"},
+    {"predicate": {"custom_model_data":3}, "model": "minecraft:item/mochkun_lefthand"},
+    {"predicate": {"custom_model_data":4}, "model": "minecraft:item/moch"},
+    {"predicate": {"custom_model_data":5}, "model": "minecraft:item/moch_max"},
+    {"predicate": {"custom_model_data":6}, "model": "minecraft:item/mochi"},
+    {"predicate": {"custom_model_data":7}, "model": "minecraft:item/yakimochi"},
+    {"predicate": {"custom_model_data":8}, "model": "minecraft:item/hukuramimochi1"},
+    {"predicate": {"custom_model_data":9}, "model": "minecraft:item/hukuramumochi2"},
+    {"predicate": {"custom_model_data":10}, "model": "minecraft:item/hukuramumochi3"},
+    {"predicate": {"custom_model_data":11}, "model": "minecraft:item/sitirin"},
+    {"predicate": {"custom_model_data":12}, "model": "minecraft:item/sitirin0"},
+    {"predicate": {"custom_model_data":13}, "model": "minecraft:item/sitirin1"},
+    {"predicate": {"custom_model_data":14}, "model": "minecraft:item/sitirin2"},
+    {"predicate": {"custom_model_data":15}, "model": "minecraft:item/sitirin3"},
+    {"predicate": {"custom_model_data":16}, "model": "minecraft:item/sitirin4"},
+    {"predicate": {"custom_model_data":17}, "model": "minecraft:item/sitirin5"},
+    {"predicate": {"custom_model_data":18}, "model": "minecraft:item/sitirin6"},
+    {"predicate": {"custom_model_data":19}, "model": "minecraft:item/sitirin7"},
+    {"predicate": {"custom_model_data":20}, "model": "minecraft:item/sitirin8"},
+    {"predicate": {"custom_model_data":21}, "model": "minecraft:item/sitirin9"},
+    {"predicate": {"custom_model_data":22}, "model": "minecraft:item/sitirin10"},
+    {"predicate": {"custom_model_data":23}, "model": "minecraft:item/true_usu"},
+    {"predicate": {"custom_model_data":24}, "model": "minecraft:item/nise1_usu"},
+    {"predicate": {"custom_model_data":25}, "model": "minecraft:item/nise2_usu"},
+    {"predicate": {"custom_model_data":26}, "model": "minecraft:item/gui"},
+    {"predicate": {"custom_model_data":27}, "model": "minecraft:item/gui2"},
+    {"predicate": {"custom_model_data":28}, "model": "minecraft:item/sumi_syou"},
+    {"predicate": {"custom_model_data":29}, "model": "minecraft:item/sumi_tyuu"},
+    {"predicate": {"custom_model_data":30}, "model": "minecraft:item/sumi_dai"},
+    {"predicate": {"custom_model_data":31}, "model": "minecraft:item/tikaramochi_right"},
+    {"predicate": {"custom_model_data":32}, "model": "minecraft:item/tikaramochi_left"},
+    {"predicate": {"custom_model_data":33}, "model": "minecraft:item/crown_mochi"}
+  ]
+}
